@@ -3,7 +3,7 @@
 This project classifies incoming support emails into predefined categories (e.g., Billing, Technical Support) while masking personal information like names, emails, and card numbers.
 
 ### ✅ Features
-- Mask PII using Regex
+- Mask PII (personal information (PII) )using Regex
 - Classify emails using Naive Bayes + TF-IDF
 - Gradio frontend for Hugging Face Spaces
 
