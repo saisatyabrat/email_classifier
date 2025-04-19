@@ -26,7 +26,9 @@ python -m venv .venv
 
 ### then run this command step by step
 pip install -r requirements.txt
+### before run train_model.py create  a folder model then run
 python train_model.py
+### then run this
 python app.py
 
 ### app link
