@@ -21,7 +21,7 @@ This project classifies incoming support emails into predefined categories (e.g.
 
 python -m venv .venv
 
-##### activete .venv
+##### activete virtual envirment
 .venv\Scripts\activate
 pip install -r requirements.txt
 python train_model.py
