@@ -23,6 +23,8 @@ python -m venv .venv
 
 ##### activete virtual envirment
 .venv\Scripts\activate
+
+### then run this command step by step
 pip install -r requirements.txt
 python train_model.py
 python app.py
