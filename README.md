@@ -29,17 +29,17 @@ This project classifies incoming support emails into predefined categories (e.g.
 
 #### create virtual envirment
 
-python -m venv .venv
+- python -m venv .venv
 
 ##### activete virtual envirment
-.venv\Scripts\activate
+- .venv\Scripts\activate
 
 ### then run this command step by step
-pip install -r requirements.txt
+- pip install -r requirements.txt
 ### before run train_model.py create  a folder model then run
-python train_model.py
+- python train_model.py
 ### then run this
-python app.py
+- python app.py
 
 ### app link
 
