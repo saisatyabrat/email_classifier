@@ -7,7 +7,7 @@ This project classifies incoming support emails into predefined categories (e.g.
 - Classify emails using Naive Bayes + TF-IDF
 - Gradio frontend for Hugging Face Spaces
 
-### Feature extract for text
+### Feature extract form text
 - Full Name
 - Email Address
 - Phone number 
