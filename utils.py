@@ -2,7 +2,7 @@ import re
 
 # regex pattern for all important data
 PII_PATTERNS = {
-    "full_name": r"\b([A-Z][a-z]+(?:\s[A-Z][a-z]+)+)\b",
+    "full_name": r"\b([A-Z][a-zA-Z'.]+(?:[-'\s.][A-Z][a-zA-Z'.]+)*\b)",
     "email": r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b",
     "phone_number": r"\b\d{10}\b",
     "dob": r"\b\d{2}/\d{2}/\d{4}\b",
